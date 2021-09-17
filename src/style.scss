@@ -6,6 +6,7 @@
 @import './banner';
 @import './best-seller';
 @import './carousel';
+@import './footer';
 
 .frete-bar{
   background-color: #eda569;
@@ -29,6 +30,10 @@
   
     >*+*{
       padding-left: 30px;
+    }
+
+    a {
+      color: black!important;
     }
   }  
 

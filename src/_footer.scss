@@ -1,0 +1,36 @@
+.footer{
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  flex-direction: column;
+  justify-content: center;
+
+  > img{
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+
+  .brands{
+    width:305px;
+  }
+
+  .institutional{
+    width:75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr .5fr;
+    margin: 0 auto;
+    border-bottom:1px solid #F5F5F5;
+
+    li a{
+     color: #949393!important;
+     font-size: 12px;
+    }
+
+    .-title{
+      margin-bottom: 15px;
+      font-weight: 400;
+    }
+  }
+}
