@@ -1,0 +1,22 @@
+.product{
+  font-size: 12px;
+  color: #949393 ;
+  text-align: center;
+
+  > *+*{
+    margin-top: 10px;
+  }
+
+  .price{
+    display: flex;
+    justify-content: center;
+    color: black;
+
+    .discount{
+      padding-left: 10px;
+      text-decoration: line-through;
+      color: #949393;
+    }
+  }
+
+}

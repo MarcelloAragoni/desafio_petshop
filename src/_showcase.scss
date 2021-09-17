@@ -1,0 +1,25 @@
+.showcase{
+  display: grid;
+  grid-template-rows: 530px 530px;
+  grid-row-gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+
+  .showcase-row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .showcase-products{
+    display: grid;
+    grid-template-columns: 210px 210px;
+    padding-left: 30px;
+    grid-column-gap: 15px;
+
+    &.-reverse{
+      padding-right: 30px;
+      padding-left: 0;
+    }
+  }
+}
+
