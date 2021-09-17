@@ -3,6 +3,9 @@
 @import './showcase';
 @import './product';
 @import './section-title';
+@import './banner';
+@import './best-seller';
+@import './carousel';
 
 .frete-bar{
   background-color: #eda569;
@@ -44,13 +47,3 @@
     height: 25px;
   }
 }
-
-.banner{
-
-  img{
-    height: 480px;
-    width: 100%;
-    object-fit:cover;
-  }
-}
-

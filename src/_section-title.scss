@@ -30,4 +30,13 @@
     background-color: white;
     padding-top: 8px;
   }
+
+  &.-best-seller{
+    z-index:0;
+    margin-top:40px;
+
+    h2{
+      background-color: #F7F4F0; 
+    }
+  }
 }
