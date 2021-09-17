@@ -1,3 +1,53 @@
-body {
-  background-color: orange;
+@import './reset';
+@import './unclassed';
+
+.frete-bar{
+  background-color: #eda569;
+  color: white;
 }
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 0;
+  
+    >*+*{
+      padding-left: 30px;
+    }
+  }  
+
+  .forms{
+    display: flex;
+    flex-direction:row;
+    margin: auto 0;
+
+    >*+*{
+      margin-left: 20px;
+    }
+  }
+
+  .forms img{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.banner{
+
+  img{
+    height: 480px;
+    width: 100%;
+    object-fit:cover;
+  }
+}
+
