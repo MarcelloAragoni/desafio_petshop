@@ -2,8 +2,33 @@
   font-size: 12px;
   color: #949393 ;
   text-align: center;
+  position: relative;
 
   > *+*{
+    margin-top: 10px;
+  }
+
+  &:hover .buyButton{
+    display:unset;
+  }
+
+  &:hover .icons{
+    display:flex;
+  }
+
+  .icons{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 80%;
+    top: 40%;
+  }
+
+  .icons img{
+    background-color: white;
+    border-radius: 50px;
+    width: 20px;
+    padding: 10px;
     margin-top: 10px;
   }
 

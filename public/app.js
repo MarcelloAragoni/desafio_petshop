@@ -10,10 +10,15 @@ function buildProducts(products){
       <img src="${product.image}" alt="">
       <p>${product.title}</p>
       <img src="./imgs/product/rate.png" alt="">
+      <div class='icons'>
+        <img src="./imgs/header/wish.png" alt="">
+        <img src="./imgs/header/cart.png" alt="">
+      </div>
       <div class="price">
        <p>${product.price}</p>
        <p class="discount">${product.price_off}</p>
       </div>
+      <button class="buyButton">Comprar</button>
     </li>    
     `
   })
