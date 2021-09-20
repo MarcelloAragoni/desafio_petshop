@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="17" height="15" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repetição_de_grade_1" data-name="Repetição de grade 1" clip-path="url(#clip-path)">
+    <g transform="translate(-362 -92)">
+      <rect id="Retângulo_27722" data-name="Retângulo 27722" width="15" height="2" rx="1" transform="translate(362 92)" fill="#f2811b"/>
+    </g>
+    <g transform="translate(-362 -87)">
+      <rect id="Retângulo_27722-2" data-name="Retângulo 27722" width="15" height="2" rx="1" transform="translate(362 92)" fill="#f2811b"/>
+    </g>
+    <g transform="translate(-362 -82)">
+      <rect id="Retângulo_27722-3" data-name="Retângulo 27722" width="15" height="2" rx="1" transform="translate(362 92)" fill="#f2811b"/>
+    </g>
+  </g>
+</svg>

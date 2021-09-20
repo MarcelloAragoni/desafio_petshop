@@ -31,3 +31,11 @@ function productList(productsHtml){
   el.innerHTML=productsHtml.join('');
   el2.innerHTML=productsHtml.join('');
 }
+
+
+function menuMobile(){
+  var element = document.getElementById("menuMobile");
+  element.classList.toggle("menuMobileOpenButton");
+  var element = document.getElementById("menu");
+  element.classList.toggle("menuMobileOpenButton");
+};      

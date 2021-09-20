@@ -14,7 +14,7 @@
   </div>
   <header class="menu-bar">
     <img src="./imgs/header/logo.png" alt="">    
-    <nav class="menu">
+    <nav id="menu" class="menu">
       <li class="categories">
         <span>Rações</span>
         <ul class="subMenu">
@@ -82,11 +82,20 @@
         <a href="">Promoções</a>
       </li>
     </nav>
-    <div class="forms">
-      <img src="./imgs/header/search.png" alt="">    
-      <img src="./imgs/header/wish.png" alt="">
-      <img src="./imgs/header/cart.png" alt="">
-    </div>
+    <ul class="forms">
+      <li onClick="menuMobile()" id="menuMobile" class="menuMobile">
+          <img src="./imgs/header/menu.svg" alt="">
+      </li>
+      <li>
+        <img src="./imgs/header/search.png" alt="">    
+      </li>
+      <li>
+        <img src="./imgs/header/wish.png" alt="">
+      </li>
+      <li>
+        <img src="./imgs/header/cart.png" alt="">
+      </li>
+    </ul>
   </header>
   <div class="banner-top">
     <img src="./imgs/banner/full-banner.png" alt="">
@@ -159,5 +168,6 @@
     </div>
     <img class="brands" src="./imgs/footer/brands.png" alt="">
   </footer>
+
 </body>
 </html>

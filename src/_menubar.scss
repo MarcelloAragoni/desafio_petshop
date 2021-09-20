@@ -24,15 +24,15 @@
     & .categories {
       position: relative;
 
-      &:before{
-          content: "";
-          height: 10px;
-          background: transparent;
-          width: 0px;
-          bottom: 0;
-          position: absolute;
-          top: 16px;
-          left: 0;
+      &:before {
+        content: "";
+        height: 10px;
+        background: transparent;
+        width: 0px;
+        bottom: 0;
+        position: absolute;
+        top: 16px;
+        left: 0;
       }
 
       & span:after {
@@ -52,7 +52,7 @@
         & span:after {
           height: 10px;
           width: 140px;
-          background: #ef6b00 ;
+          background: #ef6b00;
           transition: all ease-in-out .2s;
           z-index: 2;
         }
@@ -76,7 +76,10 @@
 
   .forms img {
     width: 25px;
-    height: 25px;
+  }
+
+  .forms .menuMobile {
+    display: none;
   }
 
   .subMenu {

@@ -1,27 +1,35 @@
 .showcase{
   display: grid;
-  grid-template-rows: 530px 530px;
+  grid-template-rows: 1fr 1fr;
   grid-row-gap: 30px;
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 435px;
+  margin: 0 25%;
   padding-top: 40px;
 
   .showcase-row{
     display: flex;
     flex-direction: row;
+
+    & img{
+      max-width: 435px;
+    }
   }
 
   .showcase-products{
     display: grid;
-    grid-template-columns: 210px 210px;
+    grid-template-columns: 1fr 1fr;
     padding-left: 30px;
     grid-column-gap: 15px;
+    max-width: 435px;
 
     &.-reverse{
       padding-right: 30px;
       padding-left: 0;
     }
 
+    & li img{
+      max-width: 210.5px;
+    }
   }
 }
 
