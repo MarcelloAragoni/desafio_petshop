@@ -7,3 +7,9 @@
   height: 33px;
   width: 113px;
 }
+
+@media screen and (max-width: 767px) {
+  .buyButton{
+    display: unset;
+  }
+}

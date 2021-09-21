@@ -34,8 +34,8 @@ function productList(productsHtml){
 
 
 function menuMobile(){
-  var element = document.getElementById("menuMobile");
-  element.classList.toggle("menuMobileOpenButton");
-  var element = document.getElementById("menu");
-  element.classList.toggle("menuMobileOpenButton");
+  const menuMobile = document.getElementById("menuMobile");
+  menuMobile.classList.toggle("menuMobileOpenButton");
+  const menu = document.getElementById("menu");
+  menu.classList.toggle("menuMobileOpenButton");
 };      

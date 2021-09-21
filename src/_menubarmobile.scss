@@ -1,5 +1,10 @@
 @media screen and (max-width: 767px) {
   .menu-bar {
+    place-content: center;
+
+    .logo{
+      width: 98px;
+    }
 
     .forms {
       display: flex;
@@ -81,24 +86,57 @@
 
     .menu {
       transition: all 1s ease;
-      transform: translate(-100%,0);
-      max-width: 100%;
+      transform: translate(-122%,0);
+      max-width: 70%;
       width: 100%;
-      height: 91%;
-      background: var(--color-white);
-      z-index: -1;
+      height: 92%;
+      background: #eaeaea;
+      z-index: 999;
       top: 0;
       position: fixed;
       list-style: none;
       display: flex;
       flex-direction: column;
-      padding: 10px 0 0 0;
       overflow-x: hidden;
       overflow-y: scroll;
+      justify-content: unset;
+
+      >*+* {
+        margin-left: 0px;
+      }      
+
+      .categories{
+        padding-left: 10px;
+        padding-top: 15px;
+        border-bottom: 1px dashed black;
+
+        span{
+          border-bottom: 1px dashed black; 
+        }
+      }
+
+      .subMenu {
+        display: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 15px;
+        background-color: #eaeaea;
+        padding: 10px;
+        width: 120px;
+        top: 26px;
+        z-index: 1;
+        box-shadow: none;
+        position: unset;
+
+        li:hover a {
+          color: #ef6b00 !important;
+        }
+      }
+
     }
 
     .menu.menuMobileOpenButton {
-      transform: translate(0,0);
+      transform: translate(-21%,0);
     }
 
   }
