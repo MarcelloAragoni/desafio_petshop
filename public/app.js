@@ -39,3 +39,12 @@ function menuMobile(){
   const menu = document.getElementById("menu");
   menu.classList.toggle("menuMobileOpenButton");
 };      
+
+const closeNewsLetterEl = document.getElementById("close-newsletter");
+closeNewsLetterEl.addEventListener('click',closeNewsLetter);
+function closeNewsLetter(event){
+  const newsLetterEl = event.currentTarget.closest('.newsLetter');
+  const layerEl = document.querySelector('.newsLetter-layer');
+  layerEl.remove();
+  newsLetterEl.remove();
+}
