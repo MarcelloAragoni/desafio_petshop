@@ -77,6 +77,12 @@
 @media screen and (max-width: 767px) {
   .newsLetter{
     width: 300px;
+    background-color: #FFB400;
+    background-image: none;
+
+    .content{
+      width: 100%;
+    }
   }
 
  
