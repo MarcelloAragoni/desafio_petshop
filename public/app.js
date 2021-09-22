@@ -38,7 +38,14 @@ function menuMobile(){
   menuMobile.classList.toggle("menuMobileOpenButton");
   const menu = document.getElementById("menu");
   menu.classList.toggle("menuMobileOpenButton");
-};      
+}; 
+
+function searchForm(){
+  const searchButton = document.getElementById("search-button");
+  searchButton.classList.toggle("show");
+  const searchForm = document.getElementById("search-form");
+  searchForm.classList.toggle("show");
+};  
 
 const closeNewsLetterEl = document.getElementById("close-newsletter");
 closeNewsLetterEl.addEventListener('click',closeNewsLetter);

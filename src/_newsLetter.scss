@@ -73,3 +73,11 @@
   background-color: rgba(20, 20, 20, 0.5);
   z-index: 100;
 }
+
+@media screen and (max-width: 767px) {
+  .newsLetter{
+    width: 300px;
+  }
+
+ 
+}

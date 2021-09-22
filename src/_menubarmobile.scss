@@ -136,8 +136,44 @@
     }
 
     .menu.menuMobileOpenButton {
-      transform: translate(-21%,0);
+      transform: translate(-22%,0);
+    }
+
+    .search {
+      position: absolute;
+      left: 0%;
+      top: 60%;
+      z-index: -1;
+      width: 330px;
+      transition: all ease-in-out .5s;
+  
+      input {
+        position: relative;
+        height: 33px;
+        width: 360px;
+        border: 1px solid gray;
+  
+        &:focus-visible{
+          border-inline: none;
+        }
+  
+      }
+  
+      button {
+        position: absolute;
+        width: 40px;
+        background-color: white;
+        border: none;
+        right: -30px;
+        top: 1px;
+      }
+    }
+  
+    .search.show{
+      z-index: 0;
+      top: 100%;
     }
 
   }
+
 }
