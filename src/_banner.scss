@@ -1,16 +1,27 @@
-.banner-top{
+.banner-top {
   background-color: #FFA766;
-  text-align:center;
+  text-align: center;
 
-  img{
+  img {
     max-width: 75%;
   }
 }
 
-.banner-bottom{
+.banner-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 15px;
   max-width: 900px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .banner-bottom {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }

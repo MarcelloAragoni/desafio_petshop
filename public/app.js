@@ -1,7 +1,11 @@
 fetch('./products.json')
   .then((response)=>response.json())
-  .then((data)=>buildProducts(data.products))
-  .then(productsHtml => productList(productsHtml))
+  .then((data)=>{
+    const productsHtml = buildProducts(data.products)
+    const carouselProductsHtml = buildProducts(data.carousel)
+    productList(productsHtml)
+    carouselProductList(carouselProductsHtml)
+  })
 
 function buildProducts(products){
   return products.map(product => {
@@ -25,11 +29,17 @@ function buildProducts(products){
 }
 
 function productList(productsHtml){
- 
   const el = document.querySelector('[data-products]');
   const el2 = document.querySelector('[data-products="2"]')
   el.innerHTML=productsHtml.join('');
   el2.innerHTML=productsHtml.join('');
+}
+
+function carouselProductList(productsHtml){
+  const carouselEl = document.querySelector('[data-products="carousel1"]')
+  carouselEl.innerHTML=productsHtml.join('');
+  const carouselEl2 = document.querySelector('[data-products="carousel2"]')
+  carouselEl2.innerHTML=productsHtml.join('');
 }
 
 
