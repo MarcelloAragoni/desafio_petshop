@@ -13,3 +13,5 @@ npm install
 ```bash
 npm run dev
 ```
+
+[Localhost:9000](http://localhost:9000)
